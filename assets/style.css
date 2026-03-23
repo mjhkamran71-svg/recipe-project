@@ -1,0 +1,77 @@
+body {
+       background-color: hsl(30, 54%, 90%);
+}
+.everything {
+    padding: 5%;
+    align-items: center;
+    margin: 10%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.image {
+    border-radius: 10px;
+    width: 100%;
+}
+.top {
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: 10px;
+}
+.top li {
+    padding: 5px;
+}
+.preparation {
+    color:hsl(332, 51%, 32%);
+    margin: 20px;
+}
+.bold-text {
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+}
+.orange {
+   color:  hsl(14, 45%, 36%);
+}
+.middle> ul {
+ padding-left: 5%;
+}
+.middle li {
+    padding: 5px;
+}
+.next-middle> ol {
+    padding-left: 5%;
+}
+.next-middle li {
+    padding: 5px;
+    font-weight: 400;
+    font-size: small;
+}
+table {
+    width: 100%;
+}
+td {
+    padding-left: 20px;
+}
+th {
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+}
+td,th {
+    border-bottom: .5px solid grey;
+    padding: 5px;
+}
+
+h1 {
+  font-weight: 400 ;
+    font-family: 'Young Serif', Serif;
+}
+
+@media (max-width: 680px){ .everything {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+}
